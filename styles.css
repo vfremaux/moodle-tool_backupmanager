@@ -1,0 +1,45 @@
+table.tool-backupmanager {
+    width:70%;
+}
+
+table.tool-backupmanager th {
+    text-align:left !important;
+}
+
+.tool-backupmanager-controls {
+    text-align:right;
+}
+
+.smalllink {
+    font-size:0.8em;
+}
+
+.dimmed-text {
+    color:#808080;
+}
+
+.different {
+    background-color:#D2E1F7;
+}
+
+.tera {
+    background-color:#FF2828;
+}
+
+.giga {
+    background-color:#FEA429;
+}
+
+.mega {
+    background-color:#F0DE00;
+}
+
+.kilo {
+    background-color:#00A8F0;
+}
+
+.size-bar {
+    display:inline-block;
+    height:4px;
+    width:15px;
+}

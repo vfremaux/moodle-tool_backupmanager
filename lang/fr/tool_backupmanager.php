@@ -1,0 +1,40 @@
+<?php
+
+$string['all'] = 'toutes';
+$string['allbackups'] = 'Tout types';
+$string['automatedbackups'] = 'Sauvegardes automatiques';
+$string['automateddetail'] = 'Détail des sauvegardes automatiques par cours';
+$string['backupmanagement'] = 'Gestion globale des sauvegardes';
+$string['clear'] = 'Vider';
+$string['trashdir'] = 'Corbeille de fichiers';
+$string['trashfiles'] = 'Fichiers supprimés';
+$string['count'] = 'Q';
+$string['sizeold'] = 'Taille (anciennes)';
+$string['countold'] = 'Q (anciennes)';
+$string['coursebackups'] = 'Sauvegardes de cours';
+$string['coursedetail'] = 'Détail des sauvegardes par cours';
+$string['deleteall'] = 'toutes les sauvegardes';
+$string['deleteautomated'] = 'toutes les sauvegardes automatiques';
+$string['deletecourse'] = 'toutes les sauvegardes de cours';
+$string['deletepublishflow'] = 'toutes les sauvegardes de publication';
+$string['deleteoldall'] = 'les sauvegardes (anciennes)';
+$string['deleteoldautomated'] = 'les sauvegardes automatiques (anciennes)';
+$string['deleteoldcourse'] = 'les sauvegardes de cours (anciennes)';
+$string['deleteoldpublishflow'] = 'les sauvegardes de publication (anciennes)';
+$string['deleteolduser'] = 'les sauvegardes personnelles (anciennes)';
+$string['deleteselection'] = 'Purger les zones sélectionnées';
+$string['deleteselectionold'] = 'Purger les anciennes sauvegardes des zones sélectionnées';
+$string['deleteuser'] = 'toutes les sauvegardes personnelles';
+$string['general'] = 'Statistiques générales';
+$string['old'] = 'anciennes';
+$string['olderthan'] = 'Sauvegardes antérieures à {$a} mois';
+$string['olderthanform'] = 'Sauvegardes antérieures à : ';
+$string['otherdetail'] = 'Autres sources de sauvegardes par cours';
+$string['publishflowdetail'] = 'Sous-système de publication de cours';
+$string['publishflowbackups'] = 'Sauvegardes du système de publication';
+$string['purge'] = 'Purger';
+$string['pluginname'] = 'Gestion des sauvegardes';
+$string['remove'] = 'Purger : ';
+$string['userbackups'] = 'Sauvegardes des utilisateurs';
+$string['userdetail'] = 'Détail des sauvegardes par propriétaire';
+
