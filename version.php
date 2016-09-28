@@ -17,16 +17,20 @@
 /**
  * Version details.
  *
- * @package    tool
- * @subpackage backupmanager
- * @copyright  2013 Valery fremaux
- * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     tool_backupmanager
+ * @category    tool
+ * @author      Valery Fremaux <valery.fremaux@gmail.com>
+ * @copyright   2015 onwards Valery Fremaux (http://www.mylearningfactory.com)
+ * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die;
 
 $plugin->version  = 2015042300;
-$plugin->requires = 2010112400;
+$plugin->requires = 2014110400;
 $plugin->component = 'tool_backupmanager';
 $plugin->maturity = MATURITY_BETA;
-$plugin->release = '2.4.0 (Build 2015042300)';
+$plugin->release = '2.8.0 (Build 2015042300)';
+
+// Non moodle attributes.
+$plugin->codeincrement = '2.8.0000';
