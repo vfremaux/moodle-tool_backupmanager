@@ -23,16 +23,6 @@
  */
 defined('MOODLE_INTERNAL') || die;
 
-if (is_dir($CFG->dirroot.'/local/adminsettings')) {
-    // Integration driven code.
-    require_once($CFG->dirroot.'/local/adminsettings/lib.php');
-    list($hasconfig, $hassiteconfig, $capability) = local_adminsettings_access();
-} else {
-    // Standard Moodle code
-    $capability = 'moodle/site:config';
-    $hasconfig = $hassiteconfig = has_capability($capability, context_system::instance());
-}
-
 if ($hassiteconfig) {
-    $ADMIN->add('reports', new admin_externalpage('toolbackupmanager', get_string('pluginname', 'tool_backupmanager'), new moodle_url("/$CFG->admin/tool/backupmanager/index.php"), $capability));
+    $ADMIN->add('reports', new admin_externalpage('toolbackupmanager', get_string('pluginname', 'tool_backupmanager'), new moodle_url("/$CFG->admin/tool/backupmanager/index.php")));
 }
