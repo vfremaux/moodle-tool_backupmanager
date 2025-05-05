@@ -26,11 +26,12 @@
 
 defined('MOODLE_INTERNAL') || die;
 
-$plugin->version  = 2015042300;
-$plugin->requires = 2018112800;
+$plugin->version  = 2025043000;
+$plugin->requires = 2022112801;
 $plugin->component = 'tool_backupmanager';
 $plugin->maturity = MATURITY_STABLE;
-$plugin->release = '3.6.0 (Build 2015042300)';
+$plugin->release = '4.5.0 (Build 2025043000)';
+$plugin->supported = [403, 405];
 
 // Non Moodle attributes.
-$plugin->codeincrement = '3.6.0001';
+$plugin->codeincrement = '4.5.0001';
